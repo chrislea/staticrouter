@@ -32,7 +32,7 @@ A three line example file might look like:
 
 For more examples, please reference:
 
-    https://github.com/chrislea/staticrouter/tree/main/fixtures/
+    https://github.com/chrislea/staticrouter/tree/main/examples/
 
 `
 	return s
