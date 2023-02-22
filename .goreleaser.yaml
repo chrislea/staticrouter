@@ -43,6 +43,24 @@ changelog:
     exclude:
       - '^docs:'
       - '^test:'
+nfpms:
+  -
+    homepage: https://github.com/chrislea/staticrouter
+    maintainer: Chris Lea <chris.lea@gmail.com>
+    description: |-
+      A utility to help set up classless static routes on home routers.
+    license: BSD
+    formats:
+      - deb
+      - rpm
+      - archlinux
+    contents:
+      - src: LICENSE
+        dst: /usr/share/doc/staticrouter/LICENSE
+      - src: README.md
+        dst: /usr/share/doc/staticrouter/README.md
+      - src: examples/*
+        dst: /usr/share/doc/staticrouter/examples/
 
 # The lines beneath this are called `modelines`. See `:help modeline`
 # Feel free to remove those if you don't want/use them.
