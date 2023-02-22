@@ -12,7 +12,10 @@ import (
 // the hex value. in practice, the string will be an octet from an ipv4 IP
 // address.
 func hexify(s string) string {
-	i, _ := strconv.Atoi(s)
+	i, err := strconv.Atoi(s)
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	if i < 16 {
 		return fmt.Sprintf("0%x", i)
