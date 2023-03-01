@@ -53,14 +53,14 @@ The resulting output
 00:c0:a8:03:01:18:0a:02:03:c0:a8:03:02:18:0a:04:05:c0:a8:03:03
 ```
 
-is the hexidecimal format needed for Ubiquiti/Unifi and OpenSense routers for
+is the hexidecimal format needed for Ubiquiti/Unifi and OPNsense routers for
 those classless routes.
 
 The utility also accepts a command line argument `-format` which can have the
 following values:
 
 * `ubiquiti`: Outputs format for Ubiquiti / Unifi routers (this is the default)
-* `opensense`: Identical to ubiquiti as the format is the same for these routers
+* `opnsense`: Identical to ubiquiti as the format is the same for these routers
 * `dhcp`: Outputs the format defined in the RFC
 * `mikrotik`: Outputs the specific commands needed for Mikrotik routers
 

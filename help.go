@@ -13,7 +13,7 @@ $ staticrouter /path/to/routes.txt
 The program takes a -format option that can be one of:
 
 * ubiquiti: The hex notation used by Ubiquiti / Unifi equipment
-* opensense: The same as ubiquiti, as Opensense routers use the same format
+* opnsense: The same as ubiquiti, as OPNsense routers use the same format
 * dhcp: The literal hexidecimal representation defined in the RFC
 * mikrotik: The explicit commands needed for a Mikrotik router
 

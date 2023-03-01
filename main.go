@@ -31,6 +31,8 @@ func main() {
 	}
 
 	switch format {
+	case "opnsense":
+		fallthrough
 	case "opensense":
 		fallthrough
 	case "ubiquiti":
